@@ -18,7 +18,7 @@ export default function Products({ categoryFilter = "Tout", hideFilters = false,
   const [activeCategory, setActiveCategory] = useState(categoryFilter);
 
   // Si on impose une catégorie (ex: Boulangerie), on filtre directement
-  const forcedFilter = hideFilters ? categoryFilter : activeCategory;
+ 
 
 const categories = ['Tout', ...new Set(PRODUCTS.map(p => p.category))];
 
