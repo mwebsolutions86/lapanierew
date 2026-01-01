@@ -20,9 +20,7 @@ export default function Products({ categoryFilter = "Tout", hideFilters = false,
   // Si on impose une catégorie (ex: Boulangerie), on filtre directement
   const forcedFilter = hideFilters ? categoryFilter : activeCategory;
 
-  const filteredProducts = forcedFilter === 'Tout' 
-    ? PRODUCTS 
-    : PRODUCTS.filter(p => p.category === forcedFilter);
+const categories = ['Tout', ...new Set(PRODUCTS.map(p => p.category))];
 
   return (
     <section className="pb-32 relative pt-10">
