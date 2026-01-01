@@ -105,11 +105,24 @@ export default function Footer() {
                 LA PANIÈRE
             </h1>
 
-            <div className="flex flex-col md:flex-row justify-between items-center md:items-end gap-8 relative border-t border-white/5 pt-8 text-center md:text-left">
-                © 2024 La Panière Agadir. Tous droits réservés. <br/>
-                <span className="text-[10px]">Design & Code par Mazouz WS</span>
+            <div className="relative z-10 text-sm text-white/40">
+                <p>© 2024 La Panière Agadir. Tous droits réservés.</p>
+                
+                {/* Lien Agence Interactif */}
+                <a 
+                  href="https://mazouz-ws.vercel.app/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[10px] mt-2 inline-flex items-center gap-1 group transition-colors hover:text-white"
+                >
+                    <span>Design & Code par</span>
+                    <span className="font-bold text-amber-500 relative overflow-hidden">
+                        Mazouz WS
+                        {/* Ligne animée au survol */}
+                        <span className="absolute bottom-0 left-0 w-full h-[1px] bg-amber-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
+                    </span>
+                </a>
             </div>
-
             <button 
                 onClick={scrollToTop}
                 className="relative z-10 group flex items-center gap-2 pr-4 text-amber-500 font-bold hover:text-white transition-colors"
