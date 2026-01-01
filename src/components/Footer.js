@@ -106,7 +106,7 @@ export default function Footer() {
             </h1>
 
             <div className="relative z-10 text-sm text-white/40">
-                <p>© 2024 La Panière Agadir. Tous droits réservés.</p>
+                <p>© 2026 La Panière Agadir. Tous droits réservés.</p>
                 
                 {/* Lien Agence Interactif */}
                 <a 
