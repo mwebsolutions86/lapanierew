@@ -97,7 +97,7 @@ export default function Hero() {
                     transform: `translate(${mousePosition.x * -1}px, ${mousePosition.y * -1}px) rotate(-3deg)`, 
                 }}
             >
-               <Image src="/hero-bread.jpg" alt="Pain Tradition" fill className="object-cover" priority />
+               <Image src="/herobread.jpg" alt="Pain Tradition" fill className="object-cover" priority />
             </div>
 
             {/* COUCHE 2 : LE PREMIER PLAN (Gâteau) */}
@@ -107,7 +107,7 @@ export default function Hero() {
                     transform: `translate(${mousePosition.x * 2}px, ${mousePosition.y * 2}px) rotate(3deg)`,
                 }}
             >
-               <Image src="/hero-cake.jpg" alt="Pâtisserie Signature" fill className="object-cover" priority />
+               <Image src="/herocake.jpg" alt="Pâtisserie Signature" fill className="object-cover" priority />
             </div>
 
             {/* BADGE FLOTTANT */}
