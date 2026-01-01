@@ -105,7 +105,7 @@ export default function Footer() {
                 LA PANIÈRE
             </h1>
 
-            <div className="relative z-10 text-sm text-white/40">
+            <div className="flex flex-col md:flex-row justify-between items-center md:items-end gap-8 relative border-t border-white/5 pt-8 text-center md:text-left">
                 © 2024 La Panière Agadir. Tous droits réservés. <br/>
                 <span className="text-[10px]">Design & Code par Mazouz WS</span>
             </div>

@@ -120,9 +120,10 @@ export default function Hero() {
 
       </div>
       
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-coffee-dark/20 hidden md:block">
-        <ArrowDown size={24} />
-      </div>
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce text-coffee-dark/20 z-20 cursor-pointer"
+     onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}>
+  <ArrowDown size={32} strokeWidth={1.5} />
+</div>
 
     </section>
   );
