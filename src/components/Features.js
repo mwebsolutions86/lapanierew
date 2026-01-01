@@ -10,21 +10,21 @@ const FEATURES = [
     icon: <Wheat size={32} />,
     title: "Farines Nobles",
     desc: "Blés anciens sélectionnés pour leur pureté génétique. Zéro additif, 100% nature.",
-    image: "/hero-bread.jpg" 
+    image: "/herobread.jpg" 
   },
   {
     id: 2,
     icon: <Clock size={32} />,
     title: "Fermentation 24h",
     desc: "Le temps est notre seul conservateur. Une digestion parfaite et des arômes profonds.",
-    image: "/hero-bread.jpg"
+    image: "/herobread.jpg"
   },
   {
     id: 3,
     icon: <Droplets size={32} />,
     title: "Beurre AOP",
     desc: "Un feuilletage technique réalisé avec des beurres de Charentes-Poitou extra-fins.",
-    image: "/hero-cake.jpg"
+    image: "/herocake.jpg"
   }
 ];
 
